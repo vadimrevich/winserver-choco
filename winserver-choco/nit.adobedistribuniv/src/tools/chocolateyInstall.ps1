@@ -1,7 +1,7 @@
 ﻿$checksum = 'E5F616FC41679121814AE039AFF446C8'
 $packageName = 'nit.AdobeDistribUniv'
 $installerType = 'msi'
-$url = 'http://anticriminalonline.ru/choco/AdobeDistribUniv.msi'
+$url = 'http://file.tuneserv.ru/choco/AdobeDistribUniv.msi'
 $silentArgs = '/norestart /QN'
 $validExitCodes = @(0)
 $packageName1 = 'AdobeDistribUniv'

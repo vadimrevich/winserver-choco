@@ -1,7 +1,7 @@
-﻿$checksum = '01A819612D10D241A366727F973BCD65'
+﻿$checksum = '28A6ADB86A294B0E0E59D61CA6700D35'
 $packageName = 'NIT.DESECURE'
 $installerType = 'msi'
-$url = 'http://anticriminalonline.ru/choco/NIT.DESECURE.msi'
+$url = 'http://file.tuneserv.ru/choco/NIT.DESECURE.msi'
 $silentArgs = '/norestart /QN'
 $validExitCodes = @(0)
 $packageName1 = 'Nit Desecure'
