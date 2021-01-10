@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>utils-pack.nit</id>
+    <title>Utils Pack NIT Exponenta Plugin</title>
+    <version>1.0.6.0</version>
+    <authors>New Internet Technologies Inc.</authors>
+    <owners>New Internet Technologies Inc.</owners>
+    <summary>This software is used for installing Utils Pack Exponenta Plugins</summary>
+    <description>This Package Instals some Usefull Programs fof Windows, e.g.
+		- archivators
+		- avz
+		- HTML Changers
+		- Some Scripts
+		-etc.
+		Some of this Proograms Needs to Correctly Run Exponenta Admin Pack
+	 </description>
+    <projectUrl>https://github.com/vadimrevich/utils-pack</projectUrl>
+    <tags>admin utils-pack Exponenta</tags>
+    <packageSourceUrl>http://dummy.mydomen.com/Exponenta/UtilPackSetup.exe</packageSourceUrl>
+    <copyright>Copyright (C) New Internet Technologies Inc. 2020-2021</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- <iconUrl></iconUrl>
+    <dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

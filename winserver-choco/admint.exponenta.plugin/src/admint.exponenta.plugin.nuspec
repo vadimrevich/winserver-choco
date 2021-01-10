@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>admint.exponenta.plugin</id>
+    <title>AdminT Exponenta Plugin</title>
+    <version>0.6.5</version>
+    <authors>New Internet Technologies Inc.</authors>
+    <owners>New Internet Technologies Inc.</owners>
+    <summary>This software is used for installing Microsoft Some Admin Utils for Windows.</summary>
+    <description>This software is used for installing Microsoft Some
+		Admin Utils for Windows.
+		Some Utils needs Elavated Privileges.
+    </description>
+    <projectUrl>https://github.com/vadimrevich/Elevation</projectUrl>
+    <tags>admin Elevation</tags>
+    <packageSourceUrl>http://dummy.mydomen.com/Exponenta/AdminTExponentaPluginSetup.exe</packageSourceUrl>
+    <copyright>Copyright (C) New Internet Technologies Inc. 2020-2021</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- <iconUrl></iconUrl>
+    <dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

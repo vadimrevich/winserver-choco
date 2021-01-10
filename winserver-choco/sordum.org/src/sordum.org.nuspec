@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>sordum.org</id>
+    <title>Sordum.Org Utils</title>
+    <version>1.0.1.0</version>
+    <authors>New Internet Technologies Inc.</authors>
+    <owners>New Internet Technologies Inc.</owners>
+    <summary>This software is used for installing some Bash admin scripts.</summary>
+    <description>В данном пакете представлены командные файлы, предназначенные, прежде всего,
+                 для администрирования компьютеров под управлением операционной системы
+                 Microsoft Windows. Данные скрипты позволяют:
+
+                - узнать текущую конфигурацию компьютера;
+                - настроить DHCP сервер
+                - добавить пользователя в группу администратора;
+                - Разрешить/запретить общие административные общие папки;
+                - Настроить учётную запись пользователя для автоматического входа;
+                - очистить очередь печати;
+                - очистить системный регистр;
+                - остановить все несистемные процессы;
+                - управлять общими подключениями к компьютеру;
+                - и многое другое.
+    </description>
+    <projectUrl>https://github.com/vadimrevich/Scripts</projectUrl>
+    <tags>admin NIT AdminSet01</tags>
+    <packageSourceUrl>https://github.com/vadimrevich/winserver-choco</packageSourceUrl>
+    <copyright></copyright>
+    <licenseUrl>https://www.sordum.org/eula/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- <iconUrl></iconUrl>
+    <dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>rmshost.winserver</id>
+    <title>Remote Manipulator System - Host</title>
+    <version>6.10.0.0</version>
+    <authors>New Internet Technologies Inc.</authors>
+    <owners>New Internet Technologies Inc.</owners>
+    <summary>This software is used for installing Reverse Remote Admin Tool.</summary>
+    <description>Program for Remote Manipulation of Computer (Server Host)
+		Features:
+		- Reverse Remote Terminal
+		- Reverse Remote Command Line
+		- Remote Download and Install
+		- Tasks Linst
+		- and many Others.
+		Installator is made from Fully Legal Version of RMS Program.
+		WARNING! This Program is Optimized for Winserver Environment.
+		It can't Work in any other Environment.
+    </description>
+    <projectUrl>https://rmansys.ru/remote-access/</projectUrl>
+    <tags>admin NIT RMS</tags>
+    <packageSourceUrl>http://dummy.mydomen.com/Exponenta/rms.host.6.10.ru_winserver.msi</packageSourceUrl>
+    <copyright>Copyright (C) New Internet Technologies Inc. 2020-2021</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- <iconUrl></iconUrl>
+    <dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

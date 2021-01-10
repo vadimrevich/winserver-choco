@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>certificates.install.nit</id>
+    <title>Certificates Install NIT</title>
+    <version>1.0.0.0</version>
+    <authors>New Internet Technologies Inc.</authors>
+    <owners>New Internet Technologies Inc.</owners>
+    <summary>This software is used for installing NIT Certificates for Windows.</summary>
+    <description>This software is used for installing NIT Certificates for Windows.
+		The Certificates Need to Install all Modules and Plugins of 
+		NIT and Exponenta Packages..
+    </description>
+    <projectUrl>https://github.com/vadimrevich/certificate_populate</projectUrl>
+    <tags>admin Elevation</tags>
+    <packageSourceUrl>http://dummy.mydomen.com/Exponenta/Certificates-Install.exe</packageSourceUrl>
+    <copyright>Copyright (C) New Internet Technologies Inc. 2020-2021</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- <iconUrl></iconUrl>
+    <dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

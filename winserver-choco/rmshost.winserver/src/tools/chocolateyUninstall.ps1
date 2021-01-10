@@ -2,9 +2,6 @@ $script_path = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $common = $(Join-Path $script_path "common_func.ps1")
 . $common
 
-Write-Host "Uninstall..."
-&$make_uninstall_file
-&del $make_uninstall_file
 Write-Host "Uninstall Package..."
 
 if( uninstall-msi )
